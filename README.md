@@ -10,7 +10,7 @@ This repository is designed to integrate with the main Aureon OS. Each module ca
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 All files live in the root. The core anatomy modules are:
 
