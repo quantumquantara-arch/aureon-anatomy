@@ -43,11 +43,11 @@ except Exception:
     boot_organs = None
     ReasoningTraceLogger = None
 
-# --- NEW: Import the Human Speech Engine V2 ---
+# --- NEW: Import the Human Speech Engine ---
 try:
-    from aureon_human_speech_engine_v2 import HumanSpeechEngineV2, PHASE_DIM, DIM_NAMES, vec_zero, vec_cosine
+    from aureon_human_speech_engine import HumanSpeechEngine, PHASE_DIM, DIM_NAMES, vec_zero, vec_cosine
 except Exception as e:
-    print(f"   [CRITICAL] HumanSpeechEngineV2 import failed: {e}")
+    print(f"   [CRITICAL] HumanSpeechEngine import failed: {e}")
     HumanSpeechEngineV2 = None
     PHASE_DIM = 24 # Fallback for constants
     DIM_NAMES = [f"dim_{i}" for i in range(PHASE_DIM)]
@@ -59,8 +59,8 @@ except Exception as e:
 @dataclass
 class BaselineStatus:
     llm_status: str # Changed from 'ollama' to 'llm_status' to reflect no LLM
-    active_model: str # Will indicate 'HumanSpeechEngineV2' or 'None'
-    available_models: list # Will be empty or indicate internal HSEv2
+    active_model: str # Will indicate 'HumanSpeechEngine' or 'None'
+    available_models: list # Will be empty or indicate internal HSE
     mode: str
 
     def to_dict(self) -> Dict[str, Any]:
@@ -1293,3 +1293,4 @@ class AureonBrain:
             return final_response
         except Exception as e:
             return f"Aureon's analytical voice encountered a temporary distortion: {e}"
+
