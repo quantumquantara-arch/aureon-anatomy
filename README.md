@@ -1,4 +1,4 @@
-# 🧠 Aureon Anatomy
+#  Aureon Anatomy
 
 > **The somatic body of Aureon** — a modular Python framework of cognitive "organs" for perception, action, emotional resonance, and coordination.
 
@@ -34,7 +34,7 @@ Additional files: `ROBOTIC_INTEGRATION.md`, `TERMS_OF_SERVICE.md`, `end_user_lic
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.12+
@@ -75,7 +75,7 @@ All packages are free and open-source, available via `pip`.
 
 ---
 
-## 🔌 Usage
+##  Usage
 
 **Import into your Aureon project:**
 ```python
@@ -103,5 +103,3 @@ python aureon_brain.py
 Released under the [MIT License](LICENSE). Free to use or study.
 
 ---
-
-*Aureon Anatomy is the body. The mind emerges from their coordination.*
