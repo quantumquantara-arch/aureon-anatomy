@@ -10,7 +10,7 @@ This repository is designed to integrate with the main Aureon OS. Each module ca
 
 ---
 
-## 🗂 Repository Structure
+##  Repository Structure
 
 All files live in the root. The core anatomy modules are:
 
@@ -103,3 +103,4 @@ python aureon_brain.py
 Released under the [MIT License](LICENSE). Free to use or study.
 
 ---
+contact quantumquantara@gmail.com for Aureon OS repository access. Aureon Anatomy is the body. The mind emerges from it's coordination with the Aureon OS.
