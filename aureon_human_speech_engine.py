@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/env python3
 """
-AUREON HUMAN SPEECH ENGINE v2 — CONVERSATIONAL DYNAMICS CORE
+AUREON HUMAN SPEECH ENGINE — CONVERSATIONAL DYNAMICS CORE
 ==============================================================
 
 THE BREAKTHROUGH:
@@ -1984,3 +1984,4 @@ if __name__ == "__main__":
     # Save
     engine.save()
     print(f"\nFinal stats: {json.dumps(engine.stats(), indent=2)}")
+
